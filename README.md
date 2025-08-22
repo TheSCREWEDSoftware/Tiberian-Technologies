@@ -78,3 +78,28 @@ Either one you download is the same outcome
 ```
 </details>
 
+## License
+
+This project includes code originally licensed under the **GNU General Public License v2**.
+
+### GNU General Public License (GPL) v2 — Summary
+
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+[Full text of GPL v2: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt]
+
+### Additional Notice for [Tiberian Technologies](https://www.tiberiantechnologies.org/) Code
+
+This repository contains source code from **Renegade Scripts.dll**  
+Copyright 2013 Tiberian Technologies  
+
+- The original code is licensed under **GPL v2 or later**.  
+- An exemption allows **Run-Time Dynamic Linking** of this code with closed-source modules, provided those modules **do not contain code covered by this license**.  
+- Only the source code of modules containing the GPL-licensed code must be released.  
+- All original copyright notices and license headers in source files have been preserved.  
+- This repository does **not** claim ownership of the original code.
