@@ -14,6 +14,7 @@
     <ProjectGuid>{6ED2EB37-6B84-4037-839D-B258279F3560}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>AntiSpawnKill</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug SSGM|Win32'" Label="Configuration">

@@ -14,6 +14,7 @@
     <ProjectGuid>{F8128F12-0624-482E-A2EB-C2E25C2D6C08}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>crates</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug SSGM|Win32'" Label="Configuration">

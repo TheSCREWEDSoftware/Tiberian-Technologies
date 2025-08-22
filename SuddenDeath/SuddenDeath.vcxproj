@@ -14,6 +14,7 @@
     <ProjectGuid>{6BA46F59-EAAB-4E4C-90AD-725469504AA5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SuddenDeath</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug SSGM|Win32'" Label="Configuration">
