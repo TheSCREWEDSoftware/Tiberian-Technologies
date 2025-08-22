@@ -12,6 +12,8 @@
 [Oo]bj/
 # Ignore gitkeep files
 !.gitkeep
+# Ignore temp folder
+temp/
 # Ignore NuGet packages and SDK tooling
 packages/
 .nuget/
