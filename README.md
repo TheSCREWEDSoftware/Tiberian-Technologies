@@ -1,6 +1,14 @@
 > [!IMPORTANT]
 > I'm not the owner of, or in any way related to, the team behind [Tiberian Technologies](https://www.tiberiantechnologies.org/) patch or work. I've only made this on GitHub for my personal convenience.
 
+
+## Index
+
+- [How to build in Visual Studio](#how-to-build-in-visual-studio)
+- [Scripts / Plugins](#scripts--plugins)
+- [License](#license)
+- [Authors](#authors)
+
 ### Visual Studio Version Used for This Project
 
 ```
@@ -51,10 +59,13 @@ Either one you download is the same outcome
 
 7. Select `Build` and see the magic happen, you will find the final result in `bin\Debug`.
 
+## Scripts / Plugins
+
 <details>
 
 <summary>Click me to see what folders/projects get included into Scripts.dll</summary>
 
+### Name
 ```
 - scripts
 - MemoryManager
@@ -76,7 +87,41 @@ Either one you download is the same outcome
 - SuddenDeath
 - shared
 ```
+### Description
+- `scripts`: Main scripting engine and entry point for custom game logic.
+- `MemoryManager`: Handles custom memory management for the server/game.
+- `tdbedit`: Likely a tool or editor for database or game data.
+- `bansystem`: Manages player bans and ban lists.
+- `crates`: Controls crate spawning and rewards in the game.
+- `CTF`: Adds Capture The Flag game mode features.
+- `teamspeak`: Integrates with TeamSpeak server for voice communication.
+- `Mute`: Adds functionality to mute/unmute players in-game.
+- `Swap`: Handles swapping teams or players.
+- `example-plugin`: Sample plugin for development reference.
+- `RandomStartingCredits`: Sets random starting credits for players.
+- `FirstBlood`: Awards points for the first kill in a match.
+- `PointsDistribution`: Manages how points are distributed for actions.
+- `ExtraConsoleCommands`: Adds extra admin/server console commands.
+- `NoPoints`: Prevents players from earning points under certain conditions.
+- `AntiSpawnKill`: Prevents or penalizes spawn killing.
+- `CharacterRefund`: Allows players to refund or change their character.
+- `SuddenDeath`: Implements sudden death rules or events.
+- `shared`: Provides shared code/utilities for other plugins.
+
+### Commands
+- Mute:
+  - `/mute <clientId>`
+  - `/unmute <clientId>`
+- ExtraConsoleCommands:
+  - `/takecredits <clientId> <amount>`
+  - `/kill <clientId>`
+  - `/takepoints <clientId> <amount>`
+- SuddenDeath:
+  - `/suddendeath`
+
+
 </details>
+
 
 ## License
 
@@ -103,3 +148,20 @@ Copyright 2013 Tiberian Technologies
 - Only the source code of modules containing the GPL-licensed code must be released.  
 - All original copyright notices and license headers in source files have been preserved.  
 - This repository does **not** claim ownership of the original code.
+
+### Copying / Copyright
+
+Check: [COPYING](./scripts/COPYING)
+
+## Authors
+
+Below is a list of active Tiberian Technologies developers, in alphabetical order.
+
+| Name                        | Position                    |
+|-----------------------------|-----------------------------|
+| Daniel "dblaney1" Blaney    | Developer                   |
+| Jerad2142                   | Developer                   |
+| Jonathan "jonwil" Wilson    | Developer                   |
+| Unstoppable                 | Website Maintainer, Developer|
+| [Unstoppable](https://github.com/TheUnstoppable) | Website Maintainer, Developer|
+Tiberian Technologies developers are also a part of W3D Hub. You can view the full staff list [here](https://w3dhub.com/forum/search/?&type=core_members&joinedDate=any&group[4]=1&group[24]=1&group[57]=1).
