@@ -167,7 +167,6 @@ Below is a list of active Tiberian Technologies developers, in alphabetical orde
 | Daniel "dblaney1" Blaney    | Developer                   |
 | Jerad2142                   | Developer                   |
 | Jonathan "jonwil" Wilson    | Developer                   |
-| Unstoppable                 | Website Maintainer, Developer|
 | [Unstoppable](https://github.com/TheUnstoppable) | Website Maintainer, Developer|
 
 Tiberian Technologies developers are also a part of W3D Hub. You can view the full staff list [here](https://w3dhub.com/forum/search/?&type=core_members&joinedDate=any&group[4]=1&group[24]=1&group[57]=1).
