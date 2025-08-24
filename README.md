@@ -9,6 +9,11 @@
 - [License](#license)
 - [Authors](#authors)
 
+| Branch Name   | Status                          |
+|---------------|---------------------------------|
+| [main/master](https://github.com/TheSCREWEDSoftware/Tiberian-Technologies/tree/main)      | Source Code for 4.8.4           |
+| [tsg_scripts](https://github.com/TheSCREWEDSoftware/Tiberian-Technologies/tree/tsg_scripts) | My Attempt of Scripts           |
+
 ### Visual Studio Version Used for This Project
 
 ```
